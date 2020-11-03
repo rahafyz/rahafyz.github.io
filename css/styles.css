@@ -1,0 +1,218 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+}
+.prof{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	border-radius: 50%;
+	max-width: 230px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+main{
+	background-image: url("../images/cv.jpg");
+	width: 500px;
+	background-position: left;
+	background-attachment: fixed;
+	color: white;
+	float: left;
+	
+}
+hr{
+	width:485px;
+	text-align:left;
+	margin-left:10px
+}
+h1{
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 35px;
+	font-weight: bold;
+}
+.about{
+	font-size: 20px;
+	margin-left: 20px;
+    width: 450px;
+    text-align: justify;
+    margin-top: 10px;
+}
+h3{
+	font-size: 28px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+<br>
+<br>
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+.java , .sp , .c , .H , .js , .latex {
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 450px;
+	height: 1em;
+	background-color:#ff7186 ;
+	border-radius: .5em;
+	color: black;
+}
+.java::before , .sp::before , .c::before , .H::before , .js::before , .latex::before{
+	content: attr(data-lable);
+	display: flex;
+	font-size: .8em;
+	align-content: center;
+	position: absolute;
+	left: .5rem;
+	top:.3rem;
+	bottom: .3rem;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(var(--max-width) - .8em);
+	background-color:#ffa5a1 ;
+	border-radius: .5em;
+}
+br.sk{
+	height: 5px;
+}
+.per,.en{
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 450px;
+	height: 1em;
+	background-color:#cc0000 ;
+	border-radius: .5em;
+	color: black;
+}
+.per::before,.en::before{
+	content: attr(data-lable);
+	display: flex;
+	font-size: .8em;
+	align-content: center;
+	position: absolute;
+	left: .5rem;
+	top:.3rem;
+	bottom: .3rem;
+	width: calc(var(--width, 0) * 1%);
+	min-width: 2rem;
+	max-width: calc(var(--max-width) - .8em);
+	background-color:#ff4a26 ;
+	border-radius: .5em;
+}
+.contact{
+	margin-left: 10px;
+}
+hr.end{
+	margin-bottom: 50px;
+}
+header{
+	margin-left: 500px;
+	color: black;
+	margin-top: 10px;
+	max-width: 700px;
+	max-height: 510px;
+	width: 700px;
+	background-color: #FFD7D0;
+	background-attachment: cover;
+	position: relative;
+}
+h2.Fn{
+	align-content: center;
+	text-align: center;
+	position: relative;
+	font-size: 83px;
+	font-family: 'Literata', serif;
+}
+h2.Ln{
+	align-content: center;
+	text-align: center;
+	position: relative;
+	font-weight: bold;
+	background-color: #FFD7D0;
+	background-attachment: cover;
+	font-size: 153px;
+	font-family: 'Literata', serif;
+	margin-top: 10px;
+}
+h2.job{
+	align-content: center;
+	text-align: center;
+	position: relative;
+	font-size: 40px;
+	font-family: 'Orbitron', sans-serif;
+}
+hr.hd{
+	margin-left: 5px;
+	width: 686px;
+	color: #ff4a26;
+}
+section{
+	position: absolute;
+	margin-left: 501px;
+}
+h4{
+	font-size: 28px;
+    font-weight: bold;
+}
+.ed{
+	margin-left: 5px;
+}
+hr.sec{
+	width: 500px;
+	color: #ff4a26;
+}
+.imgg{
+	margin-left: 3px;
+}
+
+#share-buttons img {
+width: 50px;
+}
+ 
+</style>
